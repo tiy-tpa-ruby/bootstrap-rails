@@ -28,6 +28,7 @@ gem 'bootstrap-generators'
 - For HAML with SCSS
   ```
   rails generate bootstrap:install --template-engine=haml
+
   /bin/rm app/views/layouts/application.html.erb
   ```
 
