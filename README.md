@@ -26,8 +26,10 @@ gem 'bootstrap-generators'
 ## Then we can install the bootstrap scaffold/templates
 
 - For HAML with SCSS
-  `rails generate bootstrap:install --template-engine=haml`
-  `/bin/rm app/views/layouts/application.html.erb`
+  ```
+  rails generate bootstrap:install --template-engine=haml
+  /bin/rm app/views/layouts/application.html.erb
+  ```
 
 - For ERB with SCSS
   `rails generate bootstrap:install --stylesheet-engine=scss`
