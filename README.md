@@ -33,7 +33,9 @@ gem 'bootstrap-generators'
   ```
 
 - For ERB with SCSS
-  `rails generate bootstrap:install --stylesheet-engine=scss`
+  ```
+  rails generate bootstrap:install --stylesheet-engine=scss
+  ```
 
 ## Ensure SPRING is stopped to make sure rails changes are picked up
 
