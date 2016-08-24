@@ -2,7 +2,9 @@
 
 ## Make a new rails app
 
-`rails new bootstrap-rails`
+- Generate a new rails app, but skip using spring, and tell it to use postgresql as the database
+
+`rails new bootstrap-rails --skip-spring -d postgresql`
 
 ## Go into the rails app directory
 
@@ -18,6 +20,10 @@
 gem 'haml-rails'
 gem 'bootstrap-generators'
 ```
+
+## Remove these gems:
+
+- Remove the entry that says `gem 'jbuilder'`
 
 ## Then bundle to update our gems
 
